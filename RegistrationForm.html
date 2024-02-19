@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+<head>
+    <title>Registration</title>
+</head>
+    <body>
+        <h1>Registration Form</h1>
+        <form method="post" action="https://www.fabiovitali.it/TW/DHDK/doResponse.php">
+            <p>
+                <label>Name:<input type="text" name="name" placeholder="birth name" size="15"></label>
+                <label>Middle Initial:<input type="text" name="name" placeholder="optional" size="5"> </label>
+                <label>Surname:<input type="text" name="surname" placeholder="surname" size="30"></label>
+            </p>
+            <p>
+                <label>Adress:<input type="text" placeholder="Street, number" size="30"></label>
+                <label>City<input type="text" placeholder="City" size="14"></label>
+                        
+                <label>Country:<select name="Country">
+                    <option value="" selected>--select one--</option>
+                    <option value="it">Italy</option>
+                    <option value="br">Brazil</option>
+                    <option value="de">Germany</option>
+                    <option value="nl">Netherland</option>
+                    <option value="fr">France</option>
+                    <option value="en">England</option>
+                    <option value="ch">China</option>
+                </select>
+                </label>
+                <label>Zip Code<input type="text" placeholder="00000000" size="8"></label>
+            </p>
+            <p>
+                <label>Phone number:<input type="text" name="phonenumber" placeholder="+00 000 000000000" size="15"></label>
+                <label>E-mail:<input type="email" name="email" placeholder="youremail@provider.com" size="30"> </label>
+            </p>
+            <p>Gender:
+                <label><input type="radio" name="gender" value="f">Female</label>
+                <label><input type="radio" name="gender" value="m">Male</label>
+                <label><input type="radio" name="gender" value="x">I prefer not to say</label>
+            </p>
+            <p>Cultural preferences:
+                <label><input type="checkbox" name="cultpreferences" value="art">Art</label>
+                <label><input type="checkbox" name="cultpreferences" value="cine">Cinema</label>
+                <label><input type="checkbox" name="cultpreferences" value="danc">Dance</label>
+                <label><input type="checkbox" name="cultpreferences" value="mus">Music</label>
+                <label><input type="checkbox" name="cultpreferences" value="lit">Literature</label>
+                <label><input type="checkbox" name="cultpreferences" value="the">Theater</label>
+                <label><input type="checkbox" name="cultpreferences" value="food">Food</label>
+            </p>
+            <p>Personal Description:
+                <br>
+                <textarea name="description" rows="10" cols="30" placeholder="Write something about you."></textarea>
+            </p>
+            <p>    
+                <input type="submit" name="submit" value="OK">
+                <input type="reset" name="cancel" value="Cancel">
+            </p>
+        </form>
+    </body>
+</html>
