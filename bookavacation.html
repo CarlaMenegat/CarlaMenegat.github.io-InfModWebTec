@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book a vacation</title>
+</head>
+    <body>
+        <h1>Book a vacation</h1>
+        <form method="post" action="https://www.fabiovitali.it/TW/DHDK/doResponse.php">
+            <hr>
+            <p> 
+                <label>Destination: <select name="Destination">
+                    <option value="">--select one--</option>
+                    <option value="rio_de_janeiro">Rio de Janeiro</option>
+                    <option value="buenos_aires">Buenos Aires</option>
+                    <option value="luanda">Luanda</option>
+                    <option value="boston">Boston</option>
+                    <option value="lisboa">Lisboa</option>
+                    <option value="amsterdam">Amsterdam</option>
+                    <option value="bogota">Bogota</option>
+                    <option value="ciudad_de_mexico">Ciudad de Mexico</option>
+                    <option value="havana">Havana</option>
+                </select>
+                </label>
+            </p>
+            <p>
+                <div class="dates">
+                    <label for="calendar-input">Arriving:</label>
+                    <input type="date" id="calendar-input" name="calendar-input">
+                    <label for="calendar-input">Departing:</label>
+                    <input type="date" id="calendar-input" name="calendar-input">    
+                </div>
+            </p>
+            <p>
+                <div class="name">
+                    <label>Name:<input type="text" placeholder="your name" size="15"></label>
+                    <label>Surname:<input type="text" plaholder="yoursurname" size="15"></label>
+                </div>
+            </p>    
+            <p>
+                <div class="adress">
+                    <label>Adress:<input type="text" placeholder="Street, number" size="30"></label>
+                    <label>City<input type="text" placeholder="City" size="14" </label>
+                    
+                    <label>Country:<select name="Country">
+                        <option value="" selected>--selectone--</option>
+                        <option value="it">Italy</option>
+                        <option value="br">Brazil</option>
+                        <option value="de">Germany</option>
+                        <option value="nl">Netherland</option>
+                        <option value="fr">France</option>
+                        <option value="en">England</option>
+                        <option value="ch">China</option>
+                    </select>
+                    </label>
+                    <label>Zip Code<input type="text" placeholder="00000000" size="8"></label>
+                </div>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="OK">
+                <input type="reset" name="reset" value="reset">
+            </p>
+        </form>
+    </body>
+</html>
+
+        
