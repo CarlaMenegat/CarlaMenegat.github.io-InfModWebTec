@@ -1,0 +1,40 @@
+header {
+    background-color: #161A30;
+    color: #B6BBC4;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", "Trebuchet MS", "Lucida Sans Unicode", Arial, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #B6BBC4;
+    color: #161A30;
+    border: 1px solid#161A30; 
+    flex-wrap: wrap;
+    margin: 2em 4em;
+    padding: 1em 2em;
+}
+footer {
+    background-color:  #161A30;
+    color: #B6BBC4;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", "Trebuchet MS", "Lucida Sans Unicode", Arial, sans-serif;
+    text-align:justify;
+    font-size: small;
+}
+a{
+    color: #161A30;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", "Trebuchet MS", "Lucida Sans Unicode", Arial, sans-serif;
+    font-size:larger;
+}
+.contents{
+    width: 615px;
+}
+.picture{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+}
+
