@@ -2,20 +2,26 @@ header {
     background-color: #161A30;
     color: #B6BBC4;
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", "Trebuchet MS", "Lucida Sans Unicode", Arial, sans-serif;
-    text-align: center;
+    text-align: justify;
     font-size: large;
+    width: 100%;
+    padding: 1em 4em;
 }
 body {
     height: 100vh;
     width: 100%;
-    display: flex;
-    box-sizing: border-box;
     background-color: #B6BBC4;
+    background-image: linear-gradient(to right, rgba(182, 185, 201, 0.52), rgba(36, 33, 56, 0.73)), url(telaprogramacao.jpg);
+    background-blend-mode: screen;
+    background-size: cover;
     color: #161A30;
-    border: 1px solid#161A30; 
-    flex-wrap: wrap;
+    box-sizing: border-box;
     margin: 2em 4em;
     padding: 1em 2em;
+    border-radius: 1em;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
 }
 footer {
     background-color:  #161A30;
@@ -23,18 +29,49 @@ footer {
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", "Trebuchet MS", "Lucida Sans Unicode", Arial, sans-serif;
     text-align:justify;
     font-size: small;
+    position: absolute;
+    padding: 1em 4em;
 }
-a{
-    color: #161A30;
+a:{
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", "Trebuchet MS", "Lucida Sans Unicode", Arial, sans-serif;
-    font-size:larger;
+    color:#B6BBC4;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+    background-color: darkolivegreen;
+}
+a:visited{
+    color:darkgray;
 }
 .contents{
-    width: 615px;
-}
-.picture{
-    box-sizing: border-box;
     width: 100%;
-    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 1em 2em;
+    padding: 1em 2em;
+    justify-content: space-evenly;
+}
+.links__links{
+    color: #B6BBC4;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", "Trebuchet MS", "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: larger;
+    display:flex;
+    flex-direction: column;
+    background-color:#31304D;
+    width: 220px;
+    text-align:center;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 21.5px 0;
+    border: #31304D;
+}
+.links__links:hover{
+    background-color: #161A30;
+    padding: 3%;
 }
 

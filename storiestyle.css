@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+    background-color: white;
+    border:  1em solid black;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100%;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    padding: 1em 2em;
+}
+@font-face {
+    font-family: [Bellet];
+    src: url(Bellet-Regular/BelletRegular_FREE_FOR_PERSONAL_USE_ONLY.ttf);
+}
+header{
+    background: white;
+    border-bottom:  1em solid black;
+    padding: 1em;
+    box-sizing: content-box;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    box-sizing: content-box;
+    border-style: solid;
+    text-align: center;
+}
+@font-face {
+    font-family: [Antic];
+    src: url(Antic_Didone/OFL.txt);
+}
+h1{
+    color: black;
+    font-family: "Chelsea IV","Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 350%;
+    text-transform: uppercase;
+}
+.date{
+    font-family: Bellet, "Times New Roman", Times, serif;
+    font-size: 80%;
+    text-align: justify;
+    background-color: white;
+    color: black;
+}
+hr{
+    border-color: black;
+    box-sizing:border-box;
+    width:100%;  
+    border-bottom: 0.15em solid black;
+}
+p{
+    font-family: Antic_Didone, "Times New Roman", Times, serif;
+    font-size: 150%;
+    text-align: justify;
+    background-color: white;
+    color: black;
+}
+h3{
+    color: black;
+    font-family: "Chelsea IV", "Times New Roman", Times, serif;
+    font-weight: 200;
+    font-size: 200%;
+}
+a{
+    color: #27374D;
+    font-family: "Chelsea IV","Times New Roman", Times, serif;
+    font-size: 120%;
+}
+ul{
+    color: #27374D;
+    font-family: "Chelsea IV", "Times New Roman", Times, serif;
+    font-size: 120%;
+    text-align: justify;
+    background-color: white;
+    margin:0;
+}
+.authors{
+    font-family: Antic_Didone, "Times New Roman", Times, serif;
+    font-size: 120%;
+    text-align: justify;
+    background-color: white;
+    color: black;
+    margin: 10%;
+    box-sizing: content-box;
+    border-style: solid black;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid black;
+}
+.picture{
+    box-sizing: content-box;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+}
